@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"></a>  
+            <img class="logo-1" src="imagenescafe/logo.png" alt="">  
+
+            <input type="checkbox" id="menu"/>
+            <label for="menu"><img src="imagenes/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#servicio-2">Servicio</a></li>
+                        <li><a href="#lista-2">Productos</a></li>
+                        <li><a href="#contanto-2">Contacto</a></li>
+                    </ul>
+                </div>
+                
+   
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th> Imagen</th>
+                                        <th> Nombre</th>
+                                        <th> Precio</th>
+                                        <th></th>
+                                    </tr>                                 
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Cafe Espresso</h1>
+                                <div class="prices">
+                                    <p class="prices-1">DOP 150.00</p>
+                                    <P class="prices-2"></P>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="imagenescafe/expreso3.png" alt="">
+                            </div>
+                        </div>
+                        
+
+                    </div>        
+
+                    
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Cappucciono</h1>
+                                <div class="prices">
+                                    <p class="prices-1">DOP 180.00</p>
+                                    <P class="prices-2"></P>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="imagenescafe/Cappucciono.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Arepa con Queso</h1>
+                                <div class="prices">
+                                    <p class="prices-1">DOP 120.00</p>
+                                    <P class="prices-2"></P>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="imagenescafe/arepaq.png" alt="">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+      
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <hr>
+    <section class="promos container" id="lista-1">
+        <h2>Promociones</h2>
+
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Cafe Americano</h3>
+                    <div class="prices">
+                        <p class="price-1">DOP 150.00</p>
+                        <p class="precio">DOP 120.00</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenescafe/cafeamericano.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Bizcocho de Chocolate</h3>
+                    <div class="prices">
+                        <p class="price-1">DOP 200.00</p>
+                        <p class="precio">COP 150.00</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenescafe/bizcocho de chocolate.png" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Arepa Reina Pepiada</h3>
+                    <div class="prices">
+                        <p class="price-1">DOP 180.00</p>
+                        <p class="precio">DOP 150.00</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenescafe/areoareyna.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Cafe con Leche</h3>
+                    <div class="prices">
+                        <p class="price-1">DOP 130.00</p>
+                        <p class="precio">DOP 100.00</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="imagenescafe/cafeconleche.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Nuevos Productos</h2>
+
+        <div class="swiper mySwiper-2">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="product">
+                        <img src="imagenescafe/latte.png" alt="">
+                        <div class="product-txt">
+                            <h3>Latte</h3>
+                            <p>Suave y Cremoso</p>
+                            <p class="precio">DOP 160.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/mocha.png" alt="">
+                        <div class="product-txt">
+                            <h3>Mocha</h3>
+                            <p>Con toques de Chocolate</p>
+                            <p class="precio">DOP 180.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/croissantr.png" alt="">
+                        <div class="product-txt">
+                            <h3>Croissant</h3>
+                            <p>Fresco y cujiente</p>
+                            <p class="precio">DOP 100.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/jugo natural.png" alt="">
+                        <div class="product-txt">
+                            <h3>Jugo Natural</h3>
+                            <p>Fresco y Saludable</p>
+                            <p class="precio">DOP 80.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/brownie.png" alt="">
+                        <div class="product-txt">
+                            <h3>Brownie</h3>
+                            <p>Chocolatoso y esponjoso</p>
+                            <p class="precio">DOP 150.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/te verde.png" alt="">
+                        <div class="product-txt">
+                            <h3>Te verde </h3>
+                            <p>Refrescante y Natural</p>
+                            <p class="precio">DOP 120.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/galleta de mantequillaa.png" alt="">
+                        <div class="product-txt">
+                            <h3>Galletas de Mantquilla</h3>
+                            <p>Caseras </p>
+                            <p class="precio">DOP 50.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="products container" id="lista-2">
+        <h2>Productos mas Vendidos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/tostada.png" alt="">
+                        <div class="product-txt">
+                            <h3>TOSTADA</h3>
+                            <p>del kilo</p>
+                            <p class="precio">DOP 200.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/cafeamericano.png" alt="">
+                        <div class="product-txt">
+                            <h3>Cafe Americano</h3>
+                            <p>exquisito</p>
+                            <p class="precio">DOP 120.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/batidas.png" alt="">
+                        <div class="product-txt">
+                            <h3>Batidas</h3>
+                            <p>Refrescantes y deliciosas.</p>
+                            <p class="precio">DOP 150.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/te de jengibre.png" alt="">
+                        <div class="product-txt">
+                            <h3>te de jengibre</h3>
+                            <p>Natural</p>
+                            <p class="precio">DOP 180.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="13">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/limonada.png" alt="">
+                        <div class="product-txt">
+                            <h3>Limonada</h3>
+                            <p>natural 100%</p>
+                            <p class="precio">DOP 100.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/huevo.png" alt="">
+                        <div class="product-txt">
+                            <h3>Huevo y Tocino </h3>
+                            <p>Excelente</p>
+                            <p class="precio">DOP 250.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/mangu.png" alt="">
+                        <div class="product-txt">
+                            <h3>LOS 3 PALOS mangu</h3>
+                            <p>NO hay que hablar</p>
+                            <p class="precio">DOP 350.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/empanadas.png" alt="">
+                        <div class="product-txt">
+                            <h3>Empanadas</h3>
+                            <p>exquisito</p>
+                            <p class="precio">DOP 75.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="imagenescafe/botella.png" alt="">
+                        <div class="product-txt">
+                            <h3>Botella de Agua</h3>
+                            <p></p>
+                            <p class="precio">DOP 20.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="14">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="info container" id="servicio-2">
+        <div class="info-img">
+            <img src="imagenescafe/tienda2.webp" alt="">
+
+        </div>
+        <div class="info-txt">
+            <h1>Servicios Adicionales</h1>
+            <p>
+                CaféRD Delicias ☕✨
+¡El lugar perfecto para los amantes del buen café y la mejor experiencia gastronómica! Desde un espresso intenso hasta un cappuccino espumoso, tenemos opciones para todos los gustos. ¿Qué esperas para venir y disfrutar de tu bebida favorita?
+                <br>
+                🔹 Variedad de cafés y bebidas calientes y frías
+                <br>
+                🔹 Desayunos y postres artesanales
+                
+                <br>
+                🔹 Espacio acogedor para trabajar o relajarte
+
+                <br>
+                🔹 Eventos y catas de café
+
+                <br>
+                🔹 Asesoría en la elección de café según tu preferencia
+                <br>
+                🔹 Promociones y descuentos especiales para clientes frecuentes
+                <br>
+            <a href="#" class="btn-2">Mas Informacion</a>
+
+        </div>
+    </section>
+
+    <section class="Horario" id="contanto-2">
+        <div class="Horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        laromana cxaoj 24
+                    </p>
+                    <p>
+                        asdifai fdjas 
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes : 9 am - 7pm
+                    </p>
+                    <p>
+                        sabados a Domingo : 8am - 4 pm
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        123-456-7890
+                    </p>
+                    <p>
+                       987-654-3210
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60561.97294494765!2d-68.97252040000001!3d18.4327096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf5468f250cc2b%3A0x174be55fc8eb99d9!2sLa%20Romana!5e0!3m2!1ses-419!2sdo!4v1696791111836!5m2!1ses-419!2sdo" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="footer container">
+        <div class="link">
+            <h3>Participante</h3>
+
+            <ul>
+                
+                <li><a href="#">George Wilkins Diaz Santana</a>/li>
+                
+            </ul>
+
+
+
+        </div>
+
+        <div class="link">
+            <h3>Matriculas</h3>
+
+            <ul>
+                <li><a href="#">22-EISN-2-005</a>/li>
+                
+            </ul>
+
+
+
+        </div>
+
+
+       
+
+
+      
+
+
+
+        <div class="link">
+            <h3>Derechos</h3>
+
+           <p>
+            
+            Todos los derechos reservados 2025 CaféRD. Todos los derechos reservados. CaféRD. Todos los derechos reservados
+           </p>
+
+
+
+        </div>
+
+
+        <div class="links">
+            <h4>SOCIAL</h4>
+            <ul>
+                <div class="socials">
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s1.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s2.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social">
+                            <img src="imagenes/s3.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </ul>
+
+        </div>
+    </footer>
+
+
+
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
